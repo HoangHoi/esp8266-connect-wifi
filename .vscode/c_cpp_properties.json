@@ -1,0 +1,86 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/cores/esp8266",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/ESP8266WiFi/src",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/tools/sdk/include",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/variants/d1_mini",
+                "/home/hoanghoi/Arduino/libraries/ArduinoJson/src",
+                "/home/hoanghoi/Arduino/libraries/Arduino-SerialCommand-master",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/ESP8266httpUpdate/src",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/ArduinoOTA",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/EEPROM",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/ESP8266WebServer/src",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/ESP8266mDNS",
+                "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries/ESP8266HTTPClient/src"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/libraries",
+                    "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/cores",
+                    "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/variants",
+                    "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/tools/sdk/include",
+                    "/home/hoanghoi/.arduino15/packages/esp8266/hardware/esp8266/2.4.1/tools/sdk/libc",
+                    "/home/hoanghoi/Arduino/libraries",
+                    "/home/hoanghoi/.arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9-2/xtensa-lx106-elf/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
